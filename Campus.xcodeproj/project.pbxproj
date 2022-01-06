@@ -7,18 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1AADEE278753C500CAAE7C /* MainBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AADED278753C500CAAE7C /* MainBtn.swift */; };
+		ED1AADF1278753D900CAAE7C /* RKPointPin in Frameworks */ = {isa = PBXBuildFile; productRef = ED1AADF0278753D900CAAE7C /* RKPointPin */; };
+		ED1AADF5278753FC00CAAE7C /* BtnData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AADF2278753FC00CAAE7C /* BtnData.swift */; };
+		ED1AADF6278753FC00CAAE7C /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AADF3278753FC00CAAE7C /* BottomSheetView.swift */; };
+		ED1AADF7278753FC00CAAE7C /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AADF4278753FC00CAAE7C /* BottomView.swift */; };
 		ED4D50002782F0D7000509BC /* CampusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D4FFF2782F0D7000509BC /* CampusApp.swift */; };
 		ED4D50022782F0D7000509BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50012782F0D7000509BC /* ContentView.swift */; };
 		ED4D50042782F0D8000509BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4D50032782F0D8000509BC /* Assets.xcassets */; };
 		ED4D50072782F0D8000509BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4D50062782F0D8000509BC /* Preview Assets.xcassets */; };
+		ED4D500F2782F135000509BC /* ARView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D500E2782F135000509BC /* ARView3.swift */; };
+		ED4D50172782F141000509BC /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50102782F141000509BC /* ExploreView.swift */; };
+		ED4D50182782F141000509BC /* CollectDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50112782F141000509BC /* CollectDataView.swift */; };
+		ED4D50192782F141000509BC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50122782F141000509BC /* Location.swift */; };
+		ED4D501A2782F141000509BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50132782F141000509BC /* HomeView.swift */; };
+		ED4D501B2782F141000509BC /* CollectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50142782F141000509BC /* CollectManager.swift */; };
+		ED4D501D2782F141000509BC /* Geom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D50162782F141000509BC /* Geom.swift */; };
+		ED4D50202782F14D000509BC /* StrExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D501E2782F14D000509BC /* StrExt.swift */; };
+		ED4D50212782F14D000509BC /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D501F2782F14D000509BC /* ShareSheet.swift */; };
+		ED4D50232782F160000509BC /* world2.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED4D50222782F160000509BC /* world2.txt */; };
+		ED4D50262782F251000509BC /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = ED4D50252782F251000509BC /* BottomSheet */; };
+		ED4D50292782F25D000509BC /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = ED4D50282782F25D000509BC /* FocusEntity */; };
+		ED4D502C2783649E000509BC /* world3.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED4D502B2783649E000509BC /* world3.txt */; };
+		ED4D502E2783679E000509BC /* world4.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED4D502D2783679E000509BC /* world4.txt */; };
+		ED4D503127836904000509BC /* LBAR in Frameworks */ = {isa = PBXBuildFile; productRef = ED4D503027836904000509BC /* LBAR */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED1AADED278753C500CAAE7C /* MainBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBtn.swift; sourceTree = "<group>"; };
+		ED1AADF2278753FC00CAAE7C /* BtnData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnData.swift; sourceTree = "<group>"; };
+		ED1AADF3278753FC00CAAE7C /* BottomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		ED1AADF4278753FC00CAAE7C /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		ED4D4FFC2782F0D7000509BC /* Campus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4D4FFF2782F0D7000509BC /* CampusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusApp.swift; sourceTree = "<group>"; };
 		ED4D50012782F0D7000509BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED4D50032782F0D8000509BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED4D50062782F0D8000509BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED4D500D2782F0F1000509BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED4D500E2782F135000509BC /* ARView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARView3.swift; sourceTree = "<group>"; };
+		ED4D50102782F141000509BC /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		ED4D50112782F141000509BC /* CollectDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectDataView.swift; sourceTree = "<group>"; };
+		ED4D50122782F141000509BC /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		ED4D50132782F141000509BC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED4D50142782F141000509BC /* CollectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectManager.swift; sourceTree = "<group>"; };
+		ED4D50162782F141000509BC /* Geom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geom.swift; sourceTree = "<group>"; };
+		ED4D501E2782F14D000509BC /* StrExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrExt.swift; sourceTree = "<group>"; };
+		ED4D501F2782F14D000509BC /* ShareSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		ED4D50222782F160000509BC /* world2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = world2.txt; sourceTree = "<group>"; };
+		ED4D502A2782F32A000509BC /* Campus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Campus.entitlements; sourceTree = "<group>"; };
+		ED4D502B2783649E000509BC /* world3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = world3.txt; sourceTree = "<group>"; };
+		ED4D502D2783679E000509BC /* world4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = world4.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1AADF1278753D900CAAE7C /* RKPointPin in Frameworks */,
+				ED4D50292782F25D000509BC /* FocusEntity in Frameworks */,
+				ED4D50262782F251000509BC /* BottomSheet in Frameworks */,
+				ED4D503127836904000509BC /* LBAR in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +93,26 @@
 		ED4D4FFE2782F0D7000509BC /* Campus */ = {
 			isa = PBXGroup;
 			children = (
+				ED4D502A2782F32A000509BC /* Campus.entitlements */,
+				ED4D500D2782F0F1000509BC /* Info.plist */,
 				ED4D4FFF2782F0D7000509BC /* CampusApp.swift */,
+				ED4D500E2782F135000509BC /* ARView3.swift */,
 				ED4D50012782F0D7000509BC /* ContentView.swift */,
+				ED4D50112782F141000509BC /* CollectDataView.swift */,
+				ED4D50142782F141000509BC /* CollectManager.swift */,
+				ED1AADF3278753FC00CAAE7C /* BottomSheetView.swift */,
+				ED1AADF4278753FC00CAAE7C /* BottomView.swift */,
+				ED1AADF2278753FC00CAAE7C /* BtnData.swift */,
+				ED4D50102782F141000509BC /* ExploreView.swift */,
+				ED4D50162782F141000509BC /* Geom.swift */,
+				ED4D501F2782F14D000509BC /* ShareSheet.swift */,
+				ED1AADED278753C500CAAE7C /* MainBtn.swift */,
+				ED4D501E2782F14D000509BC /* StrExt.swift */,
+				ED4D50132782F141000509BC /* HomeView.swift */,
+				ED4D502D2783679E000509BC /* world4.txt */,
+				ED4D502B2783649E000509BC /* world3.txt */,
+				ED4D50222782F160000509BC /* world2.txt */,
+				ED4D50122782F141000509BC /* Location.swift */,
 				ED4D50032782F0D8000509BC /* Assets.xcassets */,
 				ED4D50052782F0D8000509BC /* Preview Content */,
 			);
@@ -83,6 +143,12 @@
 			dependencies = (
 			);
 			name = Campus;
+			packageProductDependencies = (
+				ED4D50252782F251000509BC /* BottomSheet */,
+				ED4D50282782F25D000509BC /* FocusEntity */,
+				ED4D503027836904000509BC /* LBAR */,
+				ED1AADF0278753D900CAAE7C /* RKPointPin */,
+			);
 			productName = Campus;
 			productReference = ED4D4FFC2782F0D7000509BC /* Campus.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,12 @@
 				Base,
 			);
 			mainGroup = ED4D4FF32782F0D6000509BC;
+			packageReferences = (
+				ED4D50242782F251000509BC /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				ED4D50272782F25D000509BC /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				ED4D502F27836904000509BC /* XCRemoteSwiftPackageReference "location-based-ar" */,
+				ED1AADEF278753D900CAAE7C /* XCRemoteSwiftPackageReference "RKPointPin" */,
+			);
 			productRefGroup = ED4D4FFD2782F0D7000509BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4D502E2783679E000509BC /* world4.txt in Resources */,
 				ED4D50072782F0D8000509BC /* Preview Assets.xcassets in Resources */,
+				ED4D502C2783649E000509BC /* world3.txt in Resources */,
+				ED4D50232782F160000509BC /* world2.txt in Resources */,
 				ED4D50042782F0D8000509BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +212,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4D501B2782F141000509BC /* CollectManager.swift in Sources */,
+				ED4D500F2782F135000509BC /* ARView3.swift in Sources */,
+				ED4D501A2782F141000509BC /* HomeView.swift in Sources */,
 				ED4D50022782F0D7000509BC /* ContentView.swift in Sources */,
+				ED4D50172782F141000509BC /* ExploreView.swift in Sources */,
+				ED4D501D2782F141000509BC /* Geom.swift in Sources */,
+				ED4D50212782F14D000509BC /* ShareSheet.swift in Sources */,
+				ED1AADF5278753FC00CAAE7C /* BtnData.swift in Sources */,
 				ED4D50002782F0D7000509BC /* CampusApp.swift in Sources */,
+				ED1AADF7278753FC00CAAE7C /* BottomView.swift in Sources */,
+				ED4D50202782F14D000509BC /* StrExt.swift in Sources */,
+				ED1AADEE278753C500CAAE7C /* MainBtn.swift in Sources */,
+				ED1AADF6278753FC00CAAE7C /* BottomSheetView.swift in Sources */,
+				ED4D50192782F141000509BC /* Location.swift in Sources */,
+				ED4D50182782F141000509BC /* CollectDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +354,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Campus/Campus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Campus/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Campus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Campus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Campus2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,12 +385,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Campus/Campus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Campus/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Campus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,7 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Campus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Campus2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,6 +433,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED1AADEF278753D900CAAE7C /* XCRemoteSwiftPackageReference "RKPointPin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/RKPointPin.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		ED4D50242782F251000509BC /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamfootdev/BottomSheet.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		ED4D50272782F25D000509BC /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		ED4D502F27836904000509BC /* XCRemoteSwiftPackageReference "location-based-ar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mist3r-R/location-based-ar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED1AADF0278753D900CAAE7C /* RKPointPin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED1AADEF278753D900CAAE7C /* XCRemoteSwiftPackageReference "RKPointPin" */;
+			productName = RKPointPin;
+		};
+		ED4D50252782F251000509BC /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED4D50242782F251000509BC /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+		ED4D50282782F25D000509BC /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED4D50272782F25D000509BC /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		ED4D503027836904000509BC /* LBAR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED4D502F27836904000509BC /* XCRemoteSwiftPackageReference "location-based-ar" */;
+			productName = LBAR;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED4D4FF42782F0D6000509BC /* Project object */;
 }

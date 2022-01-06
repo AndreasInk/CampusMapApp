@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
-
+import os
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HomeView()
+            .onAppear() {
+            
+        }
     }
 }
 
